@@ -1,0 +1,6 @@
+{
+  "name": "teste-email-mailhog-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
