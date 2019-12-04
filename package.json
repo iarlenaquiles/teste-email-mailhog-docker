@@ -2,5 +2,8 @@
   "name": "teste-email-mailhog-docker",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.3.1"
+  }
 }
