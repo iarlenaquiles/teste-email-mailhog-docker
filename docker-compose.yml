@@ -1,6 +1,11 @@
 version: "3"
 
-service:
+services:
+  app:
+    build: .
+    command: node index.js
+    environment:
+      - MAILHOG_HOST=mailhog
   mailhog:
     image: mailhog/mailhog
     ports:
